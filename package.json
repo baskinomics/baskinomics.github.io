@@ -1,0 +1,9 @@
+{
+  "name": "baskinomics.github.io",
+  "version": "0.0.1",
+  "description": "Professional website",
+  "main": "index.js",
+  "repository": "git@github.com:baskinomics/baskinomics.github.io.git",
+  "author": "Sean Baskin <seanbaskin@gmail.com>",
+  "license": "MIT"
+}
