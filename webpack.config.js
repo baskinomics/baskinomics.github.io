@@ -48,11 +48,6 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    publicPath: 'http://localhost:8080/dist',
-    hot: true
-  },
   resolve: {
     extensions: ["*", ".js", ".jsx"]
   }
