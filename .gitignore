@@ -1,5 +1,8 @@
 # Dependency directories
 node_modules/
 
+# Build artifacts
+dist/
+
 # Yarn
 yarn-error.log
