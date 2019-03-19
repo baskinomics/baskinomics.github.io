@@ -41,10 +41,10 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({
-      template: "./src/index.html",
-      filename: "./index.html"
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: "./src/index.html",
+    //   filename: "./index.html"
+    // }),
     new webpack.HotModuleReplacementPlugin()
   ],
   devtool: 'inline-source-map',
