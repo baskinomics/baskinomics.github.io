@@ -32,6 +32,10 @@ module.exports = {
           { loader: "style-loader" },
           { loader: "css-loader" }
         ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [ 'file-loader' ]
       }
     ]
   },
@@ -41,10 +45,10 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/index.html",
-    //   filename: "./index.html"
-    // }),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "./index.html"
+    }),
     new webpack.HotModuleReplacementPlugin()
   ],
   devtool: 'inline-source-map',
