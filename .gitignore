@@ -2,7 +2,8 @@
 node_modules/
 
 # Build artifacts
-dist/
+# NOTE: Required to track for GitHub pages.
+# dist/
 
 # Yarn
 yarn-error.log
