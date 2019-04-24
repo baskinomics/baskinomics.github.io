@@ -1,0 +1,10 @@
+.Social {
+  display: block;
+}
+
+a.portfolio-link {
+  color: white;
+  margin: 10px;
+  font-size: 1.75em;
+  text-decoration: none;
+}

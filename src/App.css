@@ -1,0 +1,23 @@
+body {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+}
+
+.App {
+  margin: 1rem;
+  font-family: 'Fira Code', monospace;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src:  url('./fonts/FiraCode-Regular.woff2') format('woff2');
+  font-style: normal;
+}
