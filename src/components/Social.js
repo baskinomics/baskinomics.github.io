@@ -7,6 +7,7 @@ class Social extends Component {
       <div className="Social">
         <a class="portfolio-link" href="https://www.linkedin.com/in/sean-baskin/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a class="portfolio-link" href="https://github.com/baskinomics" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="portfolio-link" href="./resume.pdf" target="_blank"><i class="far fa-file-alt"></i></a>
       </div>
     );
   }
