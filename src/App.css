@@ -6,7 +6,7 @@ body {
 
 .App {
   margin: 1rem;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Hasklig', monospace;
   width: auto;
   height: 100%;
   display: flex;
@@ -17,7 +17,9 @@ body {
 }
 
 @font-face {
-  font-family: 'Fira Code';
-  src:  url('./fonts/FiraCode-Regular.woff2') format('woff2');
+  font-family: 'Hasklig';
+  src:  url('./fonts/Hasklig-Regular.otf') format('otf');
   font-style: normal;
 }
+
+
