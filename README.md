@@ -1,4 +1,7 @@
-Sean Baskin
-===========
+# Sean Baskin
 
-Hello, World!
+## TOC
+
+-   [baskinomics.github.com](#baskinomicsgithubcom)
+
+# baskinomics.github.com
