@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "JuliaMono";
+  src: url("/assets/fonts/JuliaMono-Regular.ttf") format("opentype");
+}
+
+body {
+  font-family: "JuliaMono";
+  font-size: medium;
+}
