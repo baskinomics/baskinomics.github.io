@@ -1,2 +1,4 @@
-baskinomics.github.io
-=====================
+Sean Baskin
+===========
+
+Hello, World!
